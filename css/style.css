@@ -16,27 +16,17 @@ Debug
 --------------
 */
 
-div.top-header.debug {
-    height: 80px;
+.debug .container-top-header {
     background-color: #ADD8E6;
-    padding: 20px 0 20px 0;
 }
 
-nav.top-header.debug {
-    height: 40px;
-    background-color: #DAA520;
-    width: 864px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
 
-div.bottom-header.debug {
-    height: 400px;
+.debug .container-bottom-header{
     background-color: #00008B;
-    padding: 50px 0 50px 0;
+}
+
+.debug .content-bottom-header {
+    background-color: #EE81EE;
 }
 
 .debug .row{
@@ -137,6 +127,20 @@ Header
 --------------
 */
 
+.container-top-header{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: #DAA520;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .logo {
     border: 2px dashed black;
@@ -166,11 +170,16 @@ li a {
     color: black;
 }
 
+.container-bottom-header{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-bottom-header {
-    height: 300px;
-    max-width: 600px;
-    background-color: #ee82ee;
-    margin: 0 auto;
+    height: 350px;
+    width: 50%;
     border: 2px dashed black;
 }
 
