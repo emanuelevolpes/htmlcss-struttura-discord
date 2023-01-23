@@ -4,8 +4,103 @@ Reset
 --------------
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+--------------
+Debug
+--------------
+*/
+
+div.top-header.debug {
+    height: 80px;
+    background-color: #ADD8E6;
+    padding: 20px 0 20px 0;
+}
+
+nav.top-header.debug {
+    height: 40px;
+    background-color: #DAA520;
+    width: 864px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+div.bottom-header.debug {
+    height: 400px;
+    background-color: #00008B;
+    padding: 50px 0 50px 0;
+}
+
+/*
+--------------
+Common
+--------------
+*/
+
+
+/*
+--------------
+Header
+--------------
+*/
+
+
+.logo {
+    border: 2px dashed black;
+    padding: 9px;
+    padding: 9px 150px 9px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    border: 2px dashed black;
+    padding: 9px 168px 9px 168px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    border: 2px dashed black;
+    padding: 9px 5px 9px 150px;
+    text-decoration: none;
+    color: black;
+}
+
+.content-bottom-header {
+    height: 300px;
+    max-width: 600px;
+    background-color: #ee82ee;
+    margin: 0 auto;
+    border: 2px dashed black;
+}
+
+
+/*
+--------------
+Main
+--------------
+*/
+
+
+
+
+/*
+--------------
+Footer
+--------------
+*/
