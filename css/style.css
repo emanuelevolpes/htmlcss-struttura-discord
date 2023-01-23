@@ -114,7 +114,7 @@ Common
 }
 
 .container-row-footer{
-    height: 500px;
+    height: 530px;
     background-color: #23272A;
     display: flex;
     justify-content: center;
@@ -240,6 +240,7 @@ Footer
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .row-footer{
